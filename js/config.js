@@ -25,4 +25,4 @@ exports.WHITELISTED_TOKENS = [
 // Ethereum RPC url
 exports.RPC_URL = 'https://kovan.infura.io/v3';
 // Default ERC20 token precision
-exports.DEFAULT_ERC20_TOKEN_PRECISION = 18;
+exports.DEFAULT_ERC20_TOKEN_PRECISION = 18
