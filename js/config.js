@@ -10,9 +10,9 @@ exports.PERMANENT_CLEANUP_INTERVAL_MS = 10 * 1000; // tslint:disable-line custom
 // Max number of entities per page
 exports.MAX_PER_PAGE = 1000;
 // Default network id to use when not specified
-exports.NETWORK_ID = 42;
+exports.NETWORK_ID = 3;
 // An array of fee recipients
-exports.FEE_RECIPIENT = '0x0000000000000000000000000000000000000000';
+exports.FEE_RECIPIENT = '0x9648e5ba3451EC0d528fEd26f8F477ab8e446ED7';
 // A flat fee in ZRX that should be charged to the order maker
 exports.MAKER_FEE_ZRX_UNIT_AMOUNT = new _0x_js_1.BigNumber(0);
 // A flat fee in ZRX that should be charged to the order taker
@@ -26,3 +26,7 @@ exports.WHITELISTED_TOKENS = [
 exports.RPC_URL = 'https://kovan.infura.io/v3';
 // Default ERC20 token precision
 exports.DEFAULT_ERC20_TOKEN_PRECISION = 18;
+
+NETWORK_ID = 3;
+WHITELISTED_TOKENS = '*';
+FEE_RECIPIENT = '0x9648e5ba3451EC0d528fEd26f8F477ab8e446ED7'
