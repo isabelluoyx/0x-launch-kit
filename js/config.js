@@ -26,7 +26,3 @@ exports.WHITELISTED_TOKENS = [
 exports.RPC_URL = 'https://kovan.infura.io/v3';
 // Default ERC20 token precision
 exports.DEFAULT_ERC20_TOKEN_PRECISION = 18;
-
-NETWORK_ID = 3;
-WHITELISTED_TOKENS = '*';
-FEE_RECIPIENT = '0x9648e5ba3451EC0d528fEd26f8F477ab8e446ED7'
